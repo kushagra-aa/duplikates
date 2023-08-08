@@ -11,6 +11,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Telegram'),
+        leading: BackButton(onPressed: () {
+          Navigator.pop(context);
+        }),
       ),
       body: const Center(
         child: Column(
