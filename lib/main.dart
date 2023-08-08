@@ -1,3 +1,4 @@
+import 'package:duplikates/constants/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +16,17 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         useMaterial3: true,
       ),
+      routes: {
+        bookmyshowRoute: (context) => const Placeholder(),
+        facebookRoute: (context) => const Placeholder(),
+        instagramRoute: (context) => const Placeholder(),
+        linkedinRoute: (context) => const Placeholder(),
+        messengerRoute: (context) => const Placeholder(),
+        snapchatRoute: (context) => const Placeholder(),
+        telegramRoute: (context) => const Placeholder(),
+        xRoute: (context) => const Placeholder(),
+        whatsappRoute: (context) => const Placeholder(),
+      },
       home: const MyHomePage(title: 'DupliKates'),
     );
   }
