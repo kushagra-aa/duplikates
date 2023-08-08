@@ -134,6 +134,4 @@ app.*.symbols
 !/dev/ci/**/Gemfile.lock
 !.vscode/settings.json
 
-# Others
-converters.dart
-ToDo.md
+/layout_images/
