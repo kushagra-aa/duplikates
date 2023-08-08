@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
         messengerRoute: (context) => const Placeholder(),
         snapchatRoute: (context) => const Placeholder(),
         telegramRoute: (context) => const Placeholder(),
-        xRoute: (context) => const Placeholder(),
         whatsappRoute: (context) => const Placeholder(),
+        xRoute: (context) => const Placeholder(),
       },
       home: const MyHomePage(title: 'DupliKates'),
     );

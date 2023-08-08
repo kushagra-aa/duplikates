@@ -5,5 +5,5 @@ const linkedinRoute = '/linkedin/';
 const messengerRoute = '/messenger/';
 const snapchatRoute = '/snapchat/';
 const telegramRoute = '/telegram/';
-const xRoute = '/x/';
 const whatsappRoute = '/whatsapp/';
+const xRoute = '/x/';
