@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key, required this.title});
-  final String title;
+class InstagramPage extends StatelessWidget {
+  const InstagramPage({super.key});
 
   @override
   Widget build(BuildContext context) {

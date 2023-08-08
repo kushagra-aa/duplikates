@@ -1,4 +1,14 @@
 import 'package:duplikates/constants/routes.dart';
+import 'package:duplikates/views/bookmyshow_view.dart';
+import 'package:duplikates/views/facebook_view.dart';
+import 'package:duplikates/views/home_view.dart';
+import 'package:duplikates/views/instagram_view.dart';
+import 'package:duplikates/views/linkedin_view.dart';
+import 'package:duplikates/views/messenger_view.dart';
+import 'package:duplikates/views/snapchat_view.dart';
+import 'package:duplikates/views/telegram_view.dart';
+import 'package:duplikates/views/whatsapp_view.dart';
+import 'package:duplikates/views/x_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,43 +27,17 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        bookmyshowRoute: (context) => const Placeholder(),
-        facebookRoute: (context) => const Placeholder(),
-        instagramRoute: (context) => const Placeholder(),
-        linkedinRoute: (context) => const Placeholder(),
-        messengerRoute: (context) => const Placeholder(),
-        snapchatRoute: (context) => const Placeholder(),
-        telegramRoute: (context) => const Placeholder(),
-        whatsappRoute: (context) => const Placeholder(),
-        xRoute: (context) => const Placeholder(),
+        bookmyshowRoute: (context) => const BookmyshowPage(),
+        facebookRoute: (context) => const FacebookPage(),
+        instagramRoute: (context) => const InstagramPage(),
+        linkedinRoute: (context) => const LinkedinPage(),
+        messengerRoute: (context) => const MessengerPage(),
+        snapchatRoute: (context) => const SnapchatPage(),
+        telegramRoute: (context) => const TelegramPage(),
+        whatsappRoute: (context) => const WhatsappPage(),
+        xRoute: (context) => const XPage(),
       },
-      home: const MyHomePage(title: 'DupliKates'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
-      ),
-      body: const Center(
-        child: Text(
-          'Welcome',
-        ),
-      ),
+      home: const HomePage(),
     );
   }
 }
