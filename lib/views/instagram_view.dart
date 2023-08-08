@@ -1,3 +1,4 @@
+import 'package:duplikates/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class InstagramPage extends StatelessWidget {
@@ -6,7 +7,7 @@ class InstagramPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 189, 236, 255),
+      backgroundColor: instagramLogoColor,
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('instagram'),

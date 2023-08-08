@@ -1,3 +1,4 @@
+import 'package:duplikates/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class XPage extends StatelessWidget {
@@ -6,7 +7,7 @@ class XPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 189, 236, 255),
+      backgroundColor: facebookLogoColor,
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('X(Twitter)'),

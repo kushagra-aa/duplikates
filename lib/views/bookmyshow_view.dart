@@ -1,3 +1,4 @@
+import 'package:duplikates/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class BookmyshowPage extends StatelessWidget {
@@ -6,7 +7,7 @@ class BookmyshowPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 189, 236, 255),
+      backgroundColor: bookmyshowLogoColor,
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Book My Show'),
