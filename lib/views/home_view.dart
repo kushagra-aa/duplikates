@@ -1,3 +1,5 @@
+import 'package:duplikates/components/nav_button_widget.dart';
+import 'package:duplikates/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:duplikates/constants/routes.dart';
 
@@ -11,65 +13,76 @@ class HomePage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('DupliKates'),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(bookmyshowRoute);
-              },
-              child: const Text('Bookmyshow'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(facebookRoute);
-              },
-              child: const Text('Facebook'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(instagramRoute);
-              },
-              child: const Text('Instagram'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(linkedinRoute);
-              },
-              child: const Text('Linkedin'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(messengerRoute);
-              },
-              child: const Text('Messenger'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(snapchatRoute);
-              },
-              child: const Text('Snapchat'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(telegramRoute);
-              },
-              child: const Text('Telegram'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(whatsappRoute);
-              },
-              child: const Text('Whatsapp'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed(xRoute);
-              },
-              child: const Text('X'),
-            ),
-          ],
+      body: const Center(
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              NavButton(
+                backgroundColor: bookmyshowLogoColor,
+                foregroundColor: Colors.white,
+                route: bookmyshowRoute,
+                text: 'Bookmyshow',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: facebookLogoColor,
+                foregroundColor: Colors.white,
+                route: facebookRoute,
+                text: 'Facebook',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: instagramLogoColor,
+                foregroundColor: Colors.white,
+                route: instagramRoute,
+                text: 'Instagram',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: linkedinLogoColor,
+                foregroundColor: Colors.white,
+                route: linkedinRoute,
+                text: 'Linkedin',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: messengerLogoColor,
+                foregroundColor: Colors.white,
+                route: messengerRoute,
+                text: 'Messenger',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: snapchatLogoColor,
+                foregroundColor: Colors.white,
+                route: snapchatRoute,
+                text: 'Snapchat',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: telegramLogoColor,
+                foregroundColor: Colors.white,
+                route: telegramRoute,
+                text: 'Telegram',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: whatsappLogoColor,
+                foregroundColor: Colors.white,
+                route: whatsappRoute,
+                text: 'Whatsapp',
+              ),
+              Spacer(),
+              NavButton(
+                backgroundColor: xLogoColor,
+                foregroundColor: Colors.white,
+                route: xRoute,
+                text: 'X',
+              ),
+            ],
+          ),
         ),
       ),
     );
