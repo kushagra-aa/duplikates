@@ -71,16 +71,22 @@ class ChatCard extends StatelessWidget {
                 Text('JavaScript Channel',
                     style: TextStyle(
                       color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 15,
                     )),
                 Row(
                   children: [
                     Text('Kushagra:',
                         style: TextStyle(
                           color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13,
                         )),
                     Text('I think you should try doi...',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.white54,
+                          fontWeight: FontWeight.w400,
+                          fontSize: 13,
                         )),
                   ],
                 ),
@@ -91,7 +97,9 @@ class ChatCard extends StatelessWidget {
               children: [
                 const Text("8:13 AM",
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.white54,
+                      fontWeight: FontWeight.w300,
+                      fontSize: 12,
                     )),
                 Container(
                   padding:
