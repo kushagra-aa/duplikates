@@ -31,22 +31,29 @@ class TelegramPage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          chatCard(),
-          chatCard(),
-          chatCard(),
-          chatCard(),
-          chatCard(),
-          chatCard(),
-          chatCard(),
-          chatCard(),
-          chatCard(),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
+          ChatCard(imageURL: genrateRandomImage()),
         ],
       ),
       drawer: const Placeholder(),
     );
   }
+}
 
-  Container chatCard() {
+class ChatCard extends StatelessWidget {
+  const ChatCard({super.key, required this.imageURL});
+
+  final String imageURL;
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 5),
       child: Row(
@@ -55,7 +62,7 @@ class TelegramPage extends StatelessWidget {
           children: [
             CircleAvatar(
               backgroundImage: NetworkImage(
-                genrateRandomImage(),
+                imageURL,
               ),
             ),
             const Column(
