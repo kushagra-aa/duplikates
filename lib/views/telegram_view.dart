@@ -8,7 +8,7 @@ class TelegramPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(24, 24, 25, 1),
+      backgroundColor: Color.fromARGB(255, 29, 29, 31),
       appBar: AppBar(
         backgroundColor: const Color.fromRGBO(38, 38, 40, 1),
         title: const Text(
@@ -18,9 +18,6 @@ class TelegramPage extends StatelessWidget {
             fontSize: 20,
           ),
         ),
-        // leading: BackButton(onPressed: () {
-        //   Navigator.pop(context);
-        // }),
         iconTheme: const IconThemeData(color: Colors.white),
         actions: [
           IconButton(
@@ -30,6 +27,7 @@ class TelegramPage extends StatelessWidget {
               ))
         ],
       ),
+      drawer: Container(),
       body: Column(
         children: [
           ChatCard(imageURL: genrateRandomImage()),
@@ -43,7 +41,16 @@ class TelegramPage extends StatelessWidget {
           ChatCard(imageURL: genrateRandomImage()),
         ],
       ),
-      drawer: const Placeholder(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: const Color.fromRGBO(138, 190, 201, 1),
+        shape: const CircleBorder(),
+        child: const Icon(
+          Icons.edit,
+          color: Colors.white,
+          fill: 1,
+        ),
+      ),
     );
   }
 }
