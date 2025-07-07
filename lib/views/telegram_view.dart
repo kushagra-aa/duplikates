@@ -8,7 +8,7 @@ class TelegramPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 29, 29, 31),
+      backgroundColor: const Color.fromARGB(255, 29, 29, 31),
       appBar: AppBar(
         backgroundColor: const Color.fromRGBO(38, 38, 40, 1),
         title: const Text(
