@@ -1,68 +1,42 @@
 {
-  "name": "ReactNative",
-  "slug": "ReactNative",
-  "scheme": "reactnative",
-  "version": "1.0.0",
-  "orientation": "portrait",
-  "userInterfaceStyle": "automatic",
-  "icon": "./assets/images/app-icon-all.png",
-  "updates": {
-    "fallbackToCacheTimeout": 0
-  },
-  "newArchEnabled": true,
-  "jsEngine": "hermes",
-  "assetBundlePatterns": [
-    "**/*"
-  ],
-  "android": {
-    "icon": "./assets/images/app-icon-android-legacy.png",
-    "package": "com.duplikates",
-    "adaptiveIcon": {
-      "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
-      "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+  "expo": {
+    "name": "duplikates",
+    "slug": "duplikates",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "duplikates",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
     },
-    "allowBackup": false,
-    "edgeToEdgeEnabled": true
-  },
-  "ios": {
-    "icon": "./assets/images/app-icon-ios.png",
-    "supportsTablet": true,
-    "bundleIdentifier": "com.duplikates"
-  },
-  "web": {
-    "favicon": "./assets/images/app-icon-web-favicon.png",
-    "bundler": "metro"
-  },
-  "plugins": [
-    "expo-localization",
-    "expo-font",
-    [
-      "expo-splash-screen",
-      {
-        "image": "./assets/images/app-icon-android-adaptive-foreground.png",
-        "imageWidth": 300,
-        "resizeMode": "contain",
-        "backgroundColor": "#191015"
-      }
-    ],
-    [
-      "react-native-edge-to-edge",
-      {
-        "android": {
-          "parentTheme": "Light",
-          "enforceNavigationBarContrast": false
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
         }
-      }
+      ]
     ],
-    "expo-router"
-  ],
-  "experiments": {
-    "tsconfigPaths": true,
-    "typedRoutes": true
-  },
-  "extra": {
-    "ignite": {
-      "version": "11.0.1"
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
