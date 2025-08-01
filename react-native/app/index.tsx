@@ -1,3 +1,5 @@
+import { Icon } from "@/components/Icons";
+import AddIcon from "@/icons/ArrowDownIcon.svg";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -10,6 +12,7 @@ export default function Index() {
       }}
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Icon Icon={AddIcon} color="SnapchatYellow" />
     </View>
   );
 }
