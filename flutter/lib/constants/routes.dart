@@ -1,8 +1,8 @@
-const bookmyshowRoute = '/bookmyshow/';
-const facebookRoute = '/facebook/';
+const bookmyshowRoute = '/bookmyshow/'; // ! Remove This
+const facebookRoute = '/facebook/'; // ! Remove This
 const instagramRoute = '/instagram/';
 const linkedinRoute = '/linkedin/';
-const messengerRoute = '/messenger/';
+const messengerRoute = '/messenger/'; // ! Remove This
 const snapchatRoute = '/snapchat/';
 const telegramRoute = '/telegram/';
 const whatsappRoute = '/whatsapp/';
