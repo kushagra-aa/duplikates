@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "user": {
+            "name": "",
+            "username": "",
+            "image": "",
+            "bio": ""
+        },
+        "date": "",
+        "post": {
+            "caption": "",
+            "pictures": [
+                "",
+                ""
+            ]
+        },
+        "insights": {
+            "likes": 11,
+            "comments": 5,
+            "shares": 9,
+            "reach": "20k"
+        },
+        "comments": [
+            {
+                "id": "112",
+                "user": {
+                    "name": "",
+                    "username": "",
+                    "image": "",
+                    "bio": ""
+                },
+                "date": "",
+                "post": {
+                    "caption": ""
+                },
+                "insights": {
+                    "likes": 11,
+                    "comments": 5,
+                    "shares": 9,
+                    "reach": "20k"
+                }
+            }
+        ]
+    }
+]

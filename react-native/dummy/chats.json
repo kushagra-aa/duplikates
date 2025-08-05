@@ -1,0 +1,12 @@
+{
+    "chats": [
+        {
+            "name": "",
+            "last_message": "",
+            "date": "",
+            "image": "",
+            "is_read": false
+        }
+    ],
+    "chat": {}
+}

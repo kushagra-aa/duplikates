@@ -11,4 +11,5 @@ export const COLORS = {
   TelegramBlue: "#24A1DE",
   LinkedInBlue: "#0076B2",
   XBlue: "#1D9BF0",
+  Accent: "#07FF88",
 };
