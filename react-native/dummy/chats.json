@@ -1,12 +1,556 @@
-{
-    "chats": [
-        {
-            "name": "",
-            "last_message": "",
-            "date": "",
-            "image": "",
-            "is_read": false
-        }
-    ],
-    "chat": {}
-}
+[
+    {
+        "id": "chat1",
+        "name": "Wes Craven rules!",
+        "date": "2023-04-20T10:00:00Z",
+        "image": "https://example.com/wes-craven.jpg",
+        "is_read": false,
+        "user": "user1",
+        "messages": [
+            {
+                "from": "user2",
+                "to": "user1",
+                "at": "2023-04-20T10:05:00Z",
+                "type": "text",
+                "text": "Hey, have you seen 'The Last House on the Left'? It's a classic horror film directed by Wes Craven."
+            },
+            {
+                "from": "user3",
+                "to": "user1",
+                "at": "2023-04-20T10:15:00Z",
+                "type": "image",
+                "text": "Check out this creepy image related to 'A Nightmare on Elm Street'. It's one of my favorites."
+            },
+            {
+                "from": "user4",
+                "to": "user1",
+                "at": "2023-04-20T10:30:00Z",
+                "type": "text",
+                "text": "I think 'Texas Chainsaw Massacre' is underrated. It has some intense scenes."
+            },
+            {
+                "from": "user5",
+                "to": "user1",
+                "at": "2023-04-20T10:45:00Z",
+                "type": "text",
+                "text": "Totally agree with you. 'Insidious' is another great one that scared me a lot when I first watched it."
+            },
+            {
+                "from": "user2",
+                "to": "user1",
+                "at": "2023-04-20T11:00:00Z",
+                "type": "text",
+                "text": "Definitely check out 'Scream'. It's a modern take on the slasher genre and directed by Wes Craven himself."
+            },
+            {
+                "from": "user3",
+                "to": "user1",
+                "at": "2023-04-20T11:15:00Z",
+                "type": "image",
+                "text": "Here's a creepy image from 'The Hills Have Eyes'. It fits the theme well."
+            },
+            {
+                "from": "user4",
+                "to": "user1",
+                "at": "2023-04-20T11:30:00Z",
+                "type": "text",
+                "text": "I'm planning to watch 'The Texas Chainsaw Massacre' again this weekend. It never gets old."
+            },
+            {
+                "from": "user5",
+                "to": "user1",
+                "at": "2023-04-20T11:45:00Z",
+                "type": "text",
+                "text": "'Insidious' is my go-to horror movie when I want to be spooked. The ending always surprises me."
+            },
+            {
+                "from": "user2",
+                "to": "user1",
+                "at": "2023-04-20T12:00:00Z",
+                "type": "text",
+                "text": "Don't forget to check out 'The Final Destination'. It has some thrilling chase scenes."
+            },
+            {
+                "from": "user3",
+                "to": "user1",
+                "at": "2023-04-20T12:15:00Z",
+                "type": "image",
+                "text": "Here's a creepy image from 'The Poughkeepsie Tapes'. It's based on true events."
+            },
+            {
+                "from": "user4",
+                "to": "user1",
+                "at": "2023-04-20T12:30:00Z",
+                "type": "text",
+                "text": "'A Nightmare on Elm Street' is one of the most iconic horror movies. The dream sequences are just terrifying."
+            },
+            {
+                "from": "user5",
+                "to": "user1",
+                "at": "2023-04-20T12:45:00Z",
+                "type": "text",
+                "text": "I love how 'The Blair Witch Project' uses found footage to create a sense of unease. It's brilliant."
+            },
+            {
+                "from": "user2",
+                "to": "user1",
+                "at": "2023-04-20T13:00:00Z",
+                "type": "text",
+                "text": "Just finished watching 'The Texas Chainsaw Massacre'. That was intense. The jump scares are brutal."
+            },
+            {
+                "from": "user3",
+                "to": "user1",
+                "at": "2023-04-20T13:15:00Z",
+                "type": "image",
+                "text": "Here's a creepy image from 'The Conjuring'. It's one of the most successful horror films based on true events."
+            },
+            {
+                "from": "user4",
+                "to": "user1",
+                "at": "2023-04-20T13:30:00Z",
+                "type": "text",
+                "text": "'Insidious' is a great horror movie with a good mix of scares and tension. The ending was chilling."
+            },
+            {
+                "from": "user5",
+                "to": "user1",
+                "at": "2023-04-20T13:45:00Z",
+                "type": "text",
+                "text": "I've heard a lot about 'The Exorcist'. It must be one of the scariest movies ever made. I need to watch it soon."
+            },
+            {
+                "from": "user2",
+                "to": "user1",
+                "at": "2023-04-20T14:00:00Z",
+                "type": "text",
+                "text": "Just saw 'The Final Destination'. That was a wild ride. The characters had to outrun death itself."
+            },
+            {
+                "from": "user3",
+                "to": "user1",
+                "at": "2023-04-20T14:15:00Z",
+                "type": "image",
+                "text": "Here's a creepy image from 'The Amityville Horror'. It's based on a true story of paranormal activity."
+            },
+            {
+                "from": "user4",
+                "to": "user1",
+                "at": "2023-04-20T14:30:00Z",
+                "type": "text",
+                "text": "'A Nightmare on Elm Street' is still one of the best horror movies. The character Freddy is just unforgettable."
+            },
+            {
+                "from": "user5",
+                "to": "user1",
+                "at": "2023-04-20T14:45:00Z",
+                "type": "text",
+                "text": "I've been a fan of 'The Ring' ever since I first watched it. The slow build-up is what makes it so effective."
+            }
+        ]
+    },
+    {
+        "id": "chat2",
+        "name": "Nerds!",
+        "user": "user1",
+        "messages": [
+            {
+                "from": "user2",
+                "at": "2023-04-21T09:00:00Z",
+                "type": "text",
+                "text": "Did you guys see the new Python library that just got released? It's amazing for data analysis."
+            },
+            {
+                "from": "user3",
+                "at": "2023-04-21T09:15:00Z",
+                "type": "image",
+                "text": "Here's a diagram I made for our college project. It shows the basic architecture of a web server."
+            },
+            {
+                "from": "user4",
+                "at": "2023-04-21T09:30:00Z",
+                "type": "text",
+                "text": "I'm really excited about the new features in Java 15. It will make our code more efficient."
+            },
+            {
+                "from": "user5",
+                "at": "2023-04-21T09:45:00Z",
+                "type": "text",
+                "text": "Have you tried using React for building user interfaces? It's really popular now."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-21T10:00:00Z",
+                "type": "text",
+                "text": "Yeah, I've been playing around with it. It's much more fun than using plain HTML and CSS."
+            },
+            {
+                "from": "user3",
+                "at": "2023-04-21T10:15:00Z",
+                "type": "image",
+                "text": "Here's a diagram I made for our college project. It shows the basic architecture of a database."
+            },
+            {
+                "from": "user4",
+                "at": "2023-04-21T10:30:00Z",
+                "type": "text",
+                "text": "I've been trying to learn more about machine learning. Any recommendations for good resources?"
+            },
+            {
+                "from": "user5",
+                "at": "2023-04-21T10:45:00Z",
+                "type": "text",
+                "text": "I found a great online course on Coursera. It's called 'Learning How to Learn', and it covers various learning techniques."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-21T11:00:00Z",
+                "type": "text",
+                "text": "That sounds useful. I'll check it out. Do you guys use any version control systems for your projects?"
+            },
+            {
+                "from": "user3",
+                "at": "2023-04-21T11:15:00Z",
+                "type": "image",
+                "text": "Here's a diagram I made for our college project. It shows the basic architecture of an API."
+            },
+            {
+                "from": "user4",
+                "at": "2023-04-21T11:30:00Z",
+                "type": "text",
+                "text": "I've been using Git for version control. It's really helpful for tracking changes and collaborating with others."
+            },
+            {
+                "from": "user5",
+                "at": "2023-04-21T11:45:00Z",
+                "type": "text",
+                "text": "I also use Git. It's much better than the old file sharing methods we used in college."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-21T12:00:00Z",
+                "type": "text",
+                "text": "What do you think about using Docker for containerizing our applications? It would make deployment easier."
+            },
+            {
+                "from": "user3",
+                "at": "2023-04-21T12:15:00Z",
+                "type": "image",
+                "text": "Here's a diagram I made for our college project. It shows the basic architecture of a microservices architecture."
+            },
+            {
+                "from": "user4",
+                "at": "2023-04-21T12:30:00Z",
+                "type": "text",
+                "text": "I've heard that Docker is really useful for creating isolated environments. I might give it a try next semester."
+            },
+            {
+                "from": "user5",
+                "at": "2023-04-21T12:45:00Z",
+                "type": "text",
+                "text": "Let me know how it goes. I'm always looking for ways to improve our development process."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-21T13:00:00Z",
+                "type": "text",
+                "text": "I've been experimenting with TypeScript. It adds static typing to JavaScript, which helps catch errors early."
+            },
+            {
+                "from": "user3",
+                "at": "2023-04-21T13:15:00Z",
+                "type": "image",
+                "text": "Here's a diagram I made for our college project. It shows the basic architecture of an event-driven system."
+            },
+            {
+                "from": "user4",
+                "at": "2023-04-21T13:30:00Z",
+                "type": "text",
+                "text": "TypeScript is a good idea. It's similar to JavaScript but with more features. I might switch to it in my next project."
+            },
+            {
+                "from": "user5",
+                "at": "2023-04-21T13:45:00Z",
+                "type": "text",
+                "text": "If you do, let's pair program sometime. I think we can learn a lot from each other."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-21T14:00:00Z",
+                "type": "text",
+                "text": "That sounds like a plan. I'm always looking for ways to improve my coding skills."
+            },
+            {
+                "from": "user3",
+                "at": "2023-04-21T14:15:00Z",
+                "type": "image",
+                "text": "Here's a diagram I made for our college project. It shows the basic architecture of a RESTful API."
+            },
+            {
+                "from": "user4",
+                "at": "2023-04-21T14:30:00Z",
+                "type": "text",
+                "text": "I've been using Node.js for backend development. It runs on Chrome's V8 JavaScript engine, which is fast."
+            },
+            {
+                "from": "user5",
+                "at": "2023-04-21T14:45:00Z",
+                "type": "text",
+                "text": "Node.js can be really powerful if you know how to use it well. I've seen some impressive projects built with it."
+            }
+        ]
+    },
+    {
+        "id": "trip_to_goa",
+        "name": "Goa Trip",
+        "user": "user1",
+        "messages": [
+            {
+                "from": "user2",
+                "at": "2023-04-01T09:00:00Z",
+                "type": "text",
+                "text": "I don't know if we should even go to Goa this year. The pandemic is still going on."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T09:05:00Z",
+                "type": "text",
+                "text": "But Goa has been opening up, and the situation seems to be under control. It could be a nice getaway."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T09:10:00Z",
+                "type": "text",
+                "text": "Yeah, but what if we get stuck there? It's not like other countries where you can just fly back."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T09:15:00Z",
+                "type": "text",
+                "text": "We could always quarantine if needed. There are plenty of resorts offering all-inclusive packages with health precautions."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T09:20:00Z",
+                "type": "text",
+                "text": "That's true, but I still feel uneasy about it. Can we at least wait until summer?"
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T09:25:00Z",
+                "type": "text",
+                "text": "Sure, let's see how the situation evolves. But I really want to go beach hopping in Goa."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T09:30:00Z",
+                "type": "text",
+                "text": "Beach hopping? Are you forgetting how expensive it is to travel during the holidays? I'm not sure if we can afford it."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T09:35:00Z",
+                "type": "text",
+                "text": "We could be a bit more budget-friendly by choosing off-season and staying in cheaper accommodations. Plus, there are plenty of free beaches to enjoy."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T09:40:00Z",
+                "type": "text",
+                "text": "I heard that the beaches in Goa are really crowded during peak season. I prefer a more peaceful experience."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T09:45:00Z",
+                "type": "text",
+                "text": "True, but we can always find a quiet spot if we go early in the morning or later in the afternoon. And there are many private beaches where you don't need to pay."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T09:50:00Z",
+                "type": "text",
+                "text": "That might work. But I still think we should reconsider our priorities here. Maybe saving money is more important than a vacation?"
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T09:55:00Z",
+                "type": "text",
+                "text": "Saving money is important, but so is taking a break and enjoying life. We've been working too hard lately."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T10:00:00Z",
+                "type": "text",
+                "text": "I know, but I'm just worried about the risks. What if something happens to us or our families?"
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T10:05:00Z",
+                "type": "text",
+                "text": "We can take precautions. Let's not be too pessimistic. The pandemic will eventually end, and we need to live while we can."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T10:10:00Z",
+                "type": "text",
+                "text": "I guess you're right. Maybe we should just go for it if we can manage the budget and travel safely."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T10:15:00Z",
+                "type": "text",
+                "text": "Exactly! And if anything happens, we can always adjust our plans. Life is full of uncertainties."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T10:20:00Z",
+                "type": "text",
+                "text": "Alright, let's plan it then. I just hope we don't regret this decision later."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T10:25:00Z",
+                "type": "text",
+                "text": "We won't. It might be a bit risky, but I believe in us and the decisions we make together."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T10:30:00Z",
+                "type": "text",
+                "text": "Thanks, that means a lot. Let's start researching accommodations and transportation options for Goa."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T10:35:00Z",
+                "type": "text",
+                "text": "Yes, I'll start looking into that. And we should probably book our flights soon to get the best deals."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T10:40:00Z",
+                "type": "text",
+                "text": "I found some great deals on flights for the off-season. It could save us a lot of money."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T10:45:00Z",
+                "type": "text",
+                "text": "That's good news! We can definitely use some extra cash in our budget. What about accommodations?"
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T10:50:00Z",
+                "type": "text",
+                "text": "I've found some民宿 options that are quite affordable. Plus, they usually have great reviews."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T10:55:00Z",
+                "type": "text",
+                "text": "Great! It sounds like we can make this trip happen without breaking the bank. Do you think it's worth taking a risk?"
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T11:00:00Z",
+                "type": "text",
+                "text": "It is risky, but I think it's important to take chances and live a little. If we do get stuck somewhere, at least we tried."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T11:05:00Z",
+                "type": "text",
+                "text": "I agree with you. We should go for it then. Let's make some travel arrangements and hope for the best."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T11:10:00Z",
+                "type": "text",
+                "text": "Okay, I'm in. Let's book our tickets and start planning the itinerary. We should definitely include some beach time!"
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T11:15:00Z",
+                "type": "text",
+                "text": "Definitely! And maybe some local tours to explore the culture and cuisine of Goa. It's going to be an adventure."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T11:20:00Z",
+                "type": "text",
+                "text": "I'm excited to try different foods and meet new people. It will be a great cultural experience."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T11:25:00Z",
+                "type": "text",
+                "text": "It's going to be amazing. And if all goes well, we can make some memories that will last a lifetime."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T11:30:00Z",
+                "type": "text",
+                "text": "I hope we don't regret this decision. Let's just enjoy the process and appreciate every moment of our trip to Goa."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T11:35:00Z",
+                "type": "text",
+                "text": "We won't regret it. We have a plan in place, and we're prepared for any situation. Let's just relax and look forward to our adventure."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T11:40:00Z",
+                "type": "text",
+                "text": "Alright, let's do this then. I'll start booking our flights and accommodations tonight."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T11:45:00Z",
+                "type": "text",
+                "text": "Great! I'll help you with the reservations and start researching local attractions for our itinerary."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T11:50:00Z",
+                "type": "text",
+                "text": "Thanks! And while we're planning, let's also think about what to pack. I want to look cute at the beach!"
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T11:55:00Z",
+                "type": "text",
+                "text": "I can help you with that too. We should include some casual and comfortable outfits for the beach, as well as some nice dresses or swimsuits if we decide to go out at night."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T12:00:00Z",
+                "type": "text",
+                "text": "Exactly! And don't forget about sunscreen, sunglasses, and a beach bag. I want to protect my skin and carry all my essentials with me."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T12:05:00Z",
+                "type": "text",
+                "text": "I've got you covered there. We should also include some basic first aid supplies and a travel insurance plan to be safe."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T12:10:00Z",
+                "type": "text",
+                "text": "You're the best! I feel much more prepared now. Let's just wait for everything to be confirmed and then we can share our plans with family and friends."
+            },
+            {
+                "from": "user1",
+                "at": "2023-04-01T12:15:00Z",
+                "type": "text",
+                "text": "Agreed! It's going to be an exciting adventure, and we can't wait to share it with everyone."
+            },
+            {
+                "from": "user2",
+                "at": "2023-04-01T12:20:00Z",
+                "type": "text",
+                "text": "Me too! Let's keep in touch and update each other on our plans. I can't wait to see the beautiful beaches of Goa."
+            }
+        ]
+    }
+]

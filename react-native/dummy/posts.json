@@ -1,44 +1,880 @@
 [
     {
-        "id": "1",
-        "user": {
-            "name": "",
-            "username": "",
-            "image": "",
-            "bio": ""
-        },
-        "date": "",
-        "post": {
-            "caption": "",
-            "pictures": [
-                "",
-                ""
-            ]
+        "id": "post1",
+        "user": "user1",
+        "date": "2023-04-01T10:00:00Z",
+        "data": {
+            "caption": "Just watched the new horror movie 'Halloween Ends'. It was intense! #HorrorMovieNight"
         },
         "insights": {
-            "likes": 11,
-            "comments": 5,
-            "shares": 9,
-            "reach": "20k"
+            "likes": 25,
+            "comments": 3,
+            "shares": 1,
+            "reach": 100
         },
         "comments": [
             {
-                "id": "112",
-                "user": {
-                    "name": "",
-                    "username": "",
-                    "image": "",
-                    "bio": ""
-                },
-                "date": "",
-                "post": {
+                "id": "comment1",
+                "user": "user2",
+                "date": "2023-04-01T10:05:00Z",
+                "data": {
                     "caption": ""
                 },
                 "insights": {
-                    "likes": 11,
-                    "comments": 5,
-                    "shares": 9,
-                    "reach": "20k"
+                    "likes": 5,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 20
+                }
+            },
+            {
+                "id": "comment2",
+                "user": "user3",
+                "date": "2023-04-01T10:10:00Z",
+                "data": {
+                    "caption": "I think the new Halloween movie is better than the previous ones. #HorrorMovieFan"
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post2",
+        "user": "user4",
+        "date": "2023-04-05T14:00:00Z",
+        "data": {
+            "caption": "Saw is still one of the best horror movies ever made. #Throwback"
+        },
+        "insights": {
+            "likes": 15,
+            "comments": 2,
+            "shares": 0,
+            "reach": 80
+        },
+        "comments": [
+            {
+                "id": "comment3",
+                "user": "user1",
+                "date": "2023-04-05T14:05:00Z",
+                "data": {
+                    "caption": "Agreed! Saw is a classic."
+                },
+                "insights": {
+                    "likes": 3,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            }
+        ]
+    },
+    {
+        "id": "post3",
+        "user": "user2",
+        "date": "2023-04-10T16:00:00Z",
+        "data": {
+            "caption": "Just saw Scream last night. So good! #ScaryNight"
+        },
+        "insights": {
+            "likes": 20,
+            "comments": 4,
+            "shares": 1,
+            "reach": 90
+        },
+        "comments": [
+            {
+                "id": "comment4",
+                "user": "user5",
+                "date": "2023-04-10T16:05:00Z",
+                "data": {
+                    "caption": "Scream is a thrilling movie. Great plot twist!"
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 25
+                }
+            },
+            {
+                "id": "comment5",
+                "user": "user3",
+                "date": "2023-04-10T16:10:00Z",
+                "data": {
+                    "caption": "I prefer the original Scream movie. This one didn't quite hit the mark for me."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post4",
+        "user": "user1",
+        "date": "2023-04-15T18:00:00Z",
+        "data": {
+            "caption": "Anyone else excited for the new Conjuring movie? #HorrorMovieLover"
+        },
+        "insights": {
+            "likes": 10,
+            "comments": 1,
+            "shares": 0,
+            "reach": 50
+        },
+        "comments": [
+            {
+                "id": "comment6",
+                "user": "user4",
+                "date": "2023-04-15T18:05:00Z",
+                "data": {
+                    "caption": "Yes, I'm looking forward to it! The Conjuring series is great."
+                },
+                "insights": {
+                    "likes": 4,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            }
+        ]
+    },
+    {
+        "id": "post5",
+        "user": "user5",
+        "date": "2023-04-20T20:00:00Z",
+        "data": {
+            "caption": "Halloween has always been my favorite horror movie. #FaveHorror"
+        },
+        "insights": {
+            "likes": 18,
+            "comments": 3,
+            "shares": 1,
+            "reach": 70
+        },
+        "comments": [
+            {
+                "id": "comment7",
+                "user": "user2",
+                "date": "2023-04-20T20:05:00Z",
+                "data": {
+                    "caption": "Me too! The original Halloween movies are classics."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 20
+                }
+            },
+            {
+                "id": "comment8",
+                "user": "user3",
+                "date": "2023-04-20T20:10:00Z",
+                "data": {
+                    "caption": "I think the new Halloween movie is a bit disappointing compared to the earlier ones."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post6",
+        "user": "user3",
+        "date": "2023-04-25T10:00:00Z",
+        "data": {
+            "caption": "Just finished watching the new movie 'The Grudge'. It was creepy! #HorrorMovieNight"
+        },
+        "insights": {
+            "likes": 18,
+            "comments": 2,
+            "shares": 0,
+            "reach": 65
+        },
+        "comments": [
+            {
+                "id": "comment9",
+                "user": "user4",
+                "date": "2023-04-25T10:05:00Z",
+                "data": {
+                    "caption": "The Grudge is one of my favorites! It's so scary."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment10",
+                "user": "user2",
+                "date": "2023-04-25T10:10:00Z",
+                "data": {
+                    "caption": "I was on the edge of my seat during The Grudge. Great movie!"
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 20
+                }
+            }
+        ]
+    },
+    {
+        "id": "post7",
+        "user": "user5",
+        "date": "2023-04-30T14:00:00Z",
+        "data": {
+            "caption": "Saw is such a classic horror film. What are your thoughts on the series? #Throwback"
+        },
+        "insights": {
+            "likes": 22,
+            "comments": 3,
+            "shares": 1,
+            "reach": 85
+        },
+        "comments": [
+            {
+                "id": "comment11",
+                "user": "user1",
+                "date": "2023-04-30T14:05:00Z",
+                "data": {
+                    "caption": "I love the Saw movies! They are so intense."
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment12",
+                "user": "user4",
+                "date": "2023-04-30T14:10:00Z",
+                "data": {
+                    "caption": "I think the later movies in the Saw series lost their touch. The first few were the best."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post8",
+        "user": "user1",
+        "date": "2023-05-05T16:00:00Z",
+        "data": {
+            "caption": "Just saw the new movie 'A Quiet Place'. It was really good! #ScaryNight"
+        },
+        "insights": {
+            "likes": 14,
+            "comments": 5,
+            "shares": 0,
+            "reach": 75
+        },
+        "comments": [
+            {
+                "id": "comment13",
+                "user": "user2",
+                "date": "2023-05-05T16:05:00Z",
+                "data": {
+                    "caption": "A Quiet Place is a great movie! The suspense was intense."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 25
+                }
+            },
+            {
+                "id": "comment14",
+                "user": "user3",
+                "date": "2023-05-05T16:10:00Z",
+                "data": {
+                    "caption": "I prefer the original Annabelle movie. This one didn't quite do it for me."
+                },
+                "insights": {
+                    "likes": 4,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post9",
+        "user": "user5",
+        "date": "2023-05-10T18:00:00Z",
+        "data": {
+            "caption": "Anyone else excited for the new Conjuring movie? #HorrorMovieLover"
+        },
+        "insights": {
+            "likes": 12,
+            "comments": 3,
+            "shares": 0,
+            "reach": 60
+        },
+        "comments": [
+            {
+                "id": "comment15",
+                "user": "user4",
+                "date": "2023-05-10T18:05:00Z",
+                "data": {
+                    "caption": "Yes, I'm looking forward to it! The Conjuring series is great."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment16",
+                "user": "user1",
+                "date": "2023-05-10T18:10:00Z",
+                "data": {
+                    "caption": "I think the new Conjuring movie is a bit disappointing compared to the earlier ones."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post10",
+        "user": "user2",
+        "date": "2023-05-15T20:00:00Z",
+        "data": {
+            "caption": "Halloween is still my favorite horror movie. #FaveHorror"
+        },
+        "insights": {
+            "likes": 20,
+            "comments": 4,
+            "shares": 1,
+            "reach": 70
+        },
+        "comments": [
+            {
+                "id": "comment17",
+                "user": "user5",
+                "date": "2023-05-15T20:05:00Z",
+                "data": {
+                    "caption": "Me too! The original Halloween movies are classics."
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 20
+                }
+            },
+            {
+                "id": "comment18",
+                "user": "user3",
+                "date": "2023-05-15T20:10:00Z",
+                "data": {
+                    "caption": "I think the new Halloween movie is a bit disappointing compared to the earlier ones."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post11",
+        "user": "user4",
+        "date": "2023-05-20T10:00:00Z",
+        "data": {
+            "caption": "Just watched 'The Nun II' and it was spooky! #HorrorMovieNight"
+        },
+        "insights": {
+            "likes": 16,
+            "comments": 3,
+            "shares": 0,
+            "reach": 75
+        },
+        "comments": [
+            {
+                "id": "comment19",
+                "user": "user2",
+                "date": "2023-05-20T10:05:00Z",
+                "data": {
+                    "caption": "The Nun II was a good one! It had some intense moments."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 20
+                }
+            },
+            {
+                "id": "comment20",
+                "user": "user5",
+                "date": "2023-05-20T10:10:00Z",
+                "data": {
+                    "caption": "I agree, The Nun II was pretty scary. I didn't sleep well after watching it."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post12",
+        "user": "user1",
+        "date": "2023-05-25T14:00:00Z",
+        "data": {
+            "caption": "Saw is such a classic horror film. What are your thoughts on the series? #Throwback"
+        },
+        "insights": {
+            "likes": 24,
+            "comments": 3,
+            "shares": 1,
+            "reach": 80
+        },
+        "comments": [
+            {
+                "id": "comment21",
+                "user": "user5",
+                "date": "2023-05-25T14:05:00Z",
+                "data": {
+                    "caption": "I love the Saw movies! They are so intense and well-made."
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment22",
+                "user": "user4",
+                "date": "2023-05-25T14:10:00Z",
+                "data": {
+                    "caption": "I think the later movies in the Saw series lost their touch. The first few were the best."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post13",
+        "user": "user3",
+        "date": "2023-05-30T16:00:00Z",
+        "data": {
+            "caption": "Just saw 'M3GAN' and it was creepy! #ScaryNight"
+        },
+        "insights": {
+            "likes": 18,
+            "comments": 4,
+            "shares": 0,
+            "reach": 70
+        },
+        "comments": [
+            {
+                "id": "comment23",
+                "user": "user5",
+                "date": "2023-05-30T16:05:00Z",
+                "data": {
+                    "caption": "M3GAN was really good! The story and the character development were great."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 25
+                }
+            },
+            {
+                "id": "comment24",
+                "user": "user2",
+                "date": "2023-05-30T16:10:00Z",
+                "data": {
+                    "caption": "I was scared watching M3GAN. It's a creepy movie."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post14",
+        "user": "user5",
+        "date": "2023-06-05T18:00:00Z",
+        "data": {
+            "caption": "Anyone else excited for the new 'Annabelle' movie? #HorrorMovieLover"
+        },
+        "insights": {
+            "likes": 15,
+            "comments": 3,
+            "shares": 0,
+            "reach": 65
+        },
+        "comments": [
+            {
+                "id": "comment25",
+                "user": "user4",
+                "date": "2023-06-05T18:05:00Z",
+                "data": {
+                    "caption": "Yes, I'm looking forward to it! The Annabelle series is so good."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment26",
+                "user": "user3",
+                "date": "2023-06-05T18:10:00Z",
+                "data": {
+                    "caption": "I think the new Annabelle movie is a bit disappointing compared to the earlier ones."
+                },
+                "insights": {
+                    "likes": 4,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post15",
+        "user": "user2",
+        "date": "2023-06-05T14:00:00Z",
+        "data": {
+            "caption": "Just watched the first three entries in The Scary Move series. Wow, what a ride! Each film has its own unique twist and scares. #ScaryMove #Horror"
+        },
+        "insights": {
+            "likes": 25,
+            "comments": 4,
+            "shares": 0,
+            "reach": 80
+        },
+        "comments": [
+            {
+                "id": "comment39",
+                "user": "user1",
+                "date": "2023-06-05T14:05:00Z",
+                "data": {
+                    "caption": "Absolutely loved the first three! They had great jump scares and kept me on the edge of my seat. The Scary Move series is definitely worth a watch."
+                },
+                "insights": {
+                    "likes": 10,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            },
+            {
+                "id": "comment40",
+                "user": "user5",
+                "date": "2023-06-05T14:10:00Z",
+                "data": {
+                    "caption": "I agree, the first three are fantastic. But I must say, the last two felt a bit repetitive and lacking in originality. The jump scares were still there, but they didn't scare me as much anymore."
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 25
+                }
+            },
+            {
+                "id": "comment41",
+                "user": "user3",
+                "date": "2023-06-05T14:15:00Z",
+                "data": {
+                    "caption": "I think the last two could have used more development and less reliance on jump scares. The first three had a good balance of suspense and buildup."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            },
+            {
+                "id": "comment42",
+                "user": "user4",
+                "date": "2023-06-05T14:20:00Z",
+                "data": {
+                    "caption": "I completely disagree. The last two were my favorites because they had the best twists and turns in the series. They expanded the universe in interesting ways."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 20
+                }
+            }
+        ]
+    },
+    {
+        "id": "post16",
+        "user": "user3",
+        "date": "2023-06-15T10:00:00Z",
+        "data": {
+            "caption": "Terrifier is one of the most underrated slasher films. What do you think? #SlasherLove"
+        },
+        "insights": {
+            "likes": 20,
+            "comments": 3,
+            "shares": 0,
+            "reach": 75
+        },
+        "comments": [
+            {
+                "id": "comment29",
+                "user": "user1",
+                "date": "2023-06-15T10:05:00Z",
+                "data": {
+                    "caption": "I agree, Terrifier is super creepy! It should be more popular."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 20
+                }
+            },
+            {
+                "id": "comment30",
+                "user": "user5",
+                "date": "2023-06-15T10:10:00Z",
+                "data": {
+                    "caption": "Terrifier is one of my favorites too! The atmosphere and the tension are just perfect."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post17",
+        "user": "user5",
+        "date": "2023-06-20T14:00:00Z",
+        "data": {
+            "caption": "I just watched 'Saw V' and it was intense! #SlasherNight"
+        },
+        "insights": {
+            "likes": 18,
+            "comments": 4,
+            "shares": 0,
+            "reach": 70
+        },
+        "comments": [
+            {
+                "id": "comment31",
+                "user": "user2",
+                "date": "2023-06-20T14:05:00Z",
+                "data": {
+                    "caption": "Saw V was a bit too much for me, but I can see why people love the series."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 25
+                }
+            },
+            {
+                "id": "comment32",
+                "user": "user4",
+                "date": "2023-06-20T14:10:00Z",
+                "data": {
+                    "caption": "I think the Saw series gets better with each movie. The twists are always surprising."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post18",
+        "user": "user1",
+        "date": "2023-06-25T16:00:00Z",
+        "data": {
+            "caption": "Hostel is a brutal movie, but it's so well done! What are your thoughts? #HorrorFreak"
+        },
+        "insights": {
+            "likes": 24,
+            "comments": 3,
+            "shares": 1,
+            "reach": 80
+        },
+        "comments": [
+            {
+                "id": "comment33",
+                "user": "user5",
+                "date": "2023-06-25T16:05:00Z",
+                "data": {
+                    "caption": "Hostel is definitely not for the faint of heart, but it's a masterpiece in horror."
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment34",
+                "user": "user3",
+                "date": "2023-06-25T16:10:00Z",
+                "data": {
+                    "caption": "I think Hostel is a groundbreaking film in the horror genre. The realism is so intense."
+                },
+                "insights": {
+                    "likes": 5,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post19",
+        "user": "user4",
+        "date": "2023-07-05T18:00:00Z",
+        "data": {
+            "caption": "Saw is celebrating its 15th anniversary this year. How many of you have seen all the movies? #Anniversary"
+        },
+        "insights": {
+            "likes": 22,
+            "comments": 4,
+            "shares": 0,
+            "reach": 70
+        },
+        "comments": [
+            {
+                "id": "comment35",
+                "user": "user1",
+                "date": "2023-07-05T18:05:00Z",
+                "data": {
+                    "caption": "I've seen all of them! The series is a masterpiece in psychological horror."
+                },
+                "insights": {
+                    "likes": 8,
+                    "comments": 1,
+                    "shares": 0,
+                    "reach": 20
+                }
+            },
+            {
+                "id": "comment36",
+                "user": "user5",
+                "date": "2023-07-05T18:10:00Z",
+                "data": {
+                    "caption": "I've seen most of them, but I skipped the later ones. They seem to lose their touch after a while."
+                },
+                "insights": {
+                    "likes": 4,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
+                }
+            }
+        ]
+    },
+    {
+        "id": "post20",
+        "user": "user2",
+        "date": "2023-07-15T20:00:00Z",
+        "data": {
+            "caption": "Terrifier is getting a prequel? Are you excited for more of this universe? #HorrorNews"
+        },
+        "insights": {
+            "likes": 18,
+            "comments": 3,
+            "shares": 0,
+            "reach": 65
+        },
+        "comments": [
+            {
+                "id": "comment37",
+                "user": "user4",
+                "date": "2023-07-15T20:05:00Z",
+                "data": {
+                    "caption": "Yes, I'm really curious about the backstory of Art the Clown. Can't wait to see it."
+                },
+                "insights": {
+                    "likes": 7,
+                    "comments": 0,
+                    "shares": 0,
+                    "reach": 15
+                }
+            },
+            {
+                "id": "comment38",
+                "user": "user3",
+                "date": "2023-07-15T20:10:00Z",
+                "data": {
+                    "caption": "I'm not sure if I want to see the prequel. The original Terrifier is so perfect as it is."
+                },
+                "insights": {
+                    "likes": 6,
+                    "comments": 2,
+                    "shares": 0,
+                    "reach": 30
                 }
             }
         ]
