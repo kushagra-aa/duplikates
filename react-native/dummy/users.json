@@ -3,7 +3,7 @@
         "id": "user1",
         "name": "Kushagra Agnihotri ",
         "username": "kushagra_aa",
-        "image": "https://example.com/john-doe.jpg",
+        "image": "https://res.cloudinary.com/dnqcwhgzs/image/upload/v1755322008/raw_ioa3dp.png",
         "bio": "Lover of all things horror! From classics to modern thrillers, I'm your go-to for spooky discussions.",
         "last_seen": "2023-04-15T18:30:00Z"
     },
@@ -11,7 +11,7 @@
         "id": "user2",
         "name": "Ashutosh Mishra",
         "username": "mishara_g",
-        "image": "https://example.com/jane-smith.jpg",
+        "image": "https://res.cloudinary.com/dnqcwhgzs/image/upload/v1755273060/raw_t1tyla.png",
         "bio": "From haunted houses to psychological horrors, I dive deep into the dark side ofuser cinema. Join me for spine-tingling discussions!",
         "last_seen": "2023-04-16T09:45:00Z"
     },
@@ -19,7 +19,7 @@
         "id": "user3",
         "name": "Satwik Gupta",
         "username": "satwikgupta",
-        "image": "https://example.com/alice-johnson.jpg",
+        "image": "https://res.cloudinary.com/dnqcwhgzs/image/upload/v1755273054/raw_hjkakh.png",
         "bio": "I can't get enough of the chilling stories and intense atmosphere found in horror movies. Let's geek out together!",
         "last_seen": "2023-04-17T15:20:00Z"
     },
@@ -27,7 +27,7 @@
         "id": "user4",
         "name": "Swastik Gupta",
         "username": "_swastik_gupta1",
-        "image": "https://example.com/bob-brown.jpg",
+        "image": "https://res.cloudinary.com/dnqcwhgzs/image/upload/v1755273069/raw_na2qt4.png",
         "bio": "From the masters of horror like Hitchcock to modern indie gems, I'm passionate about all things that give me goosebumps.",
         "last_seen": "2023-04-18T11:50:00Z"
     },
@@ -35,7 +35,7 @@
         "id": "user5",
         "name": "Harshal Shukla",
         "username": "_harshalshukla_",
-        "image": "https://example.com/charlie-davis.jpg",
+        "image": "https://res.cloudinary.com/dnqcwhgzs/image/upload/v1755273054/raw_hjkakh.png",
         "bio": "I live for the suspense and tension in horror films. Join me as we explore the secrets lurking behind every frame.",
         "last_seen": "2023-04-19T14:10:00Z"
     }
