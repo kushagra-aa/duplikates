@@ -1,8 +1,15 @@
 import { Icon } from "@/components/Icons";
 import { COLORS } from "@/constants/colors";
-import BackIcon from "@/icons/ArrowLeftIcon.svg";
+import HeartIcon from "@/icons/HeartIcon.svg";
+import MessageIcon from "@/icons/MessagesIcon.svg";
 import { useRouter } from "expo-router";
-import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function InstagramHeader() {
@@ -13,24 +20,36 @@ export default function InstagramHeader() {
   return (
     <SafeAreaView style={styles.container}>
       <TouchableOpacity onPress={handleBack}>
-        <Icon Icon={BackIcon} size={28} />
+        <Text style={styles.title}>Instagram</Text>
       </TouchableOpacity>
-      <Text style={styles.title}>InstagramHeader</Text>
+      <View style={styles.actionsContainer}>
+        <TouchableOpacity>
+          <Icon Icon={HeartIcon} size={28} color={"White"} />
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Icon Icon={MessageIcon} size={28} color={"White"} />
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: COLORS.Black2,
     flexDirection: "row",
     gap: 20,
-    paddingHorizontal: 8,
-    paddingVertical: 4,
+    paddingHorizontal: 12,
+    paddingTop: Platform.OS === "android" ? 12 : 4,
+    paddingBottom: 4,
     alignItems: "center",
+    justifyContent: "space-between",
   },
   title: {
     fontSize: 24,
-    color: COLORS.InstagramPink,
+    color: COLORS.White,
+  },
+  actionsContainer: {
+    flexDirection: "row",
+    gap: 20,
   },
 });
