@@ -30,7 +30,6 @@ export default function InstagramPage() {
           </>
         }
         ListFooterComponent={<></>}
-        ListFooterComponentStyle={styles.postsFooter}
       />
     </>
   );
@@ -42,8 +41,5 @@ const styles = StyleSheet.create({
   },
   posts: {
     gap: 20,
-  },
-  postsFooter: {
-    height: 50,
   },
 });

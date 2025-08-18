@@ -22,7 +22,7 @@ export const Icon = ({
   <Icon
     width={size}
     height={height || size}
-    fill={COLORS[color]}
+    fill={COLORS[color] || color}
     stroke={COLORS[color]}
   />
 );
